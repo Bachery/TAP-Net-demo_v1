@@ -1,0 +1,5 @@
+data/rand_2d/
+pack/
+test_result/
+__pycache__/
+*.pyc

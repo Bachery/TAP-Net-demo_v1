@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TAP-Net Examples</title>
+
+<head>
+	<link rel="stylesheet" href="demo/css/formWizard.css">
+</head>
+
+<body id="index">
+<div id="regForm">
+
+	<!--First Page: Greetings-->
+	<div class="tab" id="page1">
+		<h1>Welcome!</h1>
+		<p>
+			TAP-Net is a RL-based network solving <b>Transport and Pack</b> problem.
+		</p>
+	</div>
+
+	<div class="tab" id="page2">
+		<h1>TAP Process</h1>
+		<div id="net_results">
+			<label for="Initial Configuration">
+				<img id="init_img" />
+			</label>
+			<label for="Target Container">
+				<img id="target_img" />
+			</label>
+		</div>
+	</div>
+
+	<div class="buttons_2">
+		<button class="next_button" type="button" id="prevBtn" onclick="prev();">Prev</button>
+		<br>
+	</div>
+
+	<div class="buttons_2">
+		<button class="next_button" type="button" id="nextBtn" onclick="next();">Start</button>
+		<br>
+	</div>
+
+	<div class="buttons_2">
+		<button class="restart_button" type="button" id="restartBtn" onclick="restart();">new case</button>
+		<br>
+	</div>
+	
+</div>
+</body>
+
+<script src="demo/js/index.js"></script>
+<script src="demo/js/jquery-1.11.0.min.js"></script>
+
+</html>
